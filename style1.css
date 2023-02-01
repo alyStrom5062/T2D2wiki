@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+
+body {
+    color: #000;
+    text-align: center;
+    font-family: 'Domine', serif;
+}
+h1 {
+    font-size: 4em;
+}
+a {
+    color: hotpink;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+}
+
+/*======================================= */
+
+.grid-item {
+    margin-left: auto;
+    margin-right: auto;
+}
+img.chara {
+    width: 300px;
+    height: 150px;
+}
+
+#inddan {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 0;
+}
+#indart {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -150px;
+}
+#indkla {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -300px;
+}
+#indagl {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -450px;
+}
+#indblo {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -600px;
+}
+#indbig {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -750px;
+}
+
+/* ============================== */
+
+#indeva {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -900px;
+}
+#indand {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -1050px;
+}
+#indpyt {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -1200px;
+}
+#indmar {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -1350px;
+}
+#indgeo {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 1500px;
+}
+#indvik {  
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -1650px;
+}
+#indmrk {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -1800px;
+}
+#indyvl {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -1950px;
+}
+#indkap {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -2100px;
+}
+#indgra {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -2250px;
+}
+#indkha {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -2400px;
+}
+#indnot {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -2550px;
+}
+#indmsk {  
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -2700px;
+}
+#indspk {  
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -2850px;
+}
+#indtay {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -3000px;
+}
+#indrub {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -3150px;
+}
+#indgri { 
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -3300px;
+}
+#indlar {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -3450px;
+}
+#indann {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -3600px;
+}
+#indyul {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -3750px;
+}
+#indsab {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -3900px;
+}
+#indkat {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -4050px;
+}
+#indosp{
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -4200px;
+}
+#indoyu {
+    width: 300px;
+    height: 150px;
+    background: url('img/indexsprite300.png') 0 -4350px;
+}
+footer {
+    font-size: 2em;
+    padding: 20px 0;
+}
+
+ 
+
+/* ---------------------------------------------------------------*/
+/* ---------------------------------------------------------------*/
+/* ---------------------------------------------------------------*/
+
+@media (min-width: 700px) {
+
+        
+} /* end media 700min */
+
+/* ---------------------------------------------------------------*/
+
+@media (min-width: 1100px) {
+
+    h1 {
+        font-size: 4em;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        justify-content: center;
+    }
+
+    img.chara {
+        width: 150px;
+        height: 350px;
+    }
+           #inddan {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') 0px 0;
+            }
+            #indart {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -150px 0;
+            }
+            #indkla {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -300px 0;
+            }
+            #indagl {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -450px 0;
+            }
+            #indblo {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -600px 0;
+            }
+            #indbig {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -750px 0;
+            }
+
+            /* ============================== */
+            
+            #indeva {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -900px 0;
+            }
+            #indand {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -1050px 0;
+            }
+            #indpyt {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -1200px 0;
+            }
+            #indmar {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -1350px 0;
+            }
+            #indgeo {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -1500px 0;
+            }
+            #indvik {  
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -1650px 0;
+            }
+            #indmrk {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -1800px 0;
+            }
+            #indyvl {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -1950px 0;
+            }
+            #indkap {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -2100px 0;
+            }
+            #indgra {
+                
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -2250px 0;
+            }
+            #indkha {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -2400px 0;
+            }
+            #indnot {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -2550px 0;
+            }
+            #indmsk {  
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -2700px 0;
+            }
+            #indspk {  
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -2850px 0;
+            }
+            #indtay {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -3000px 0;
+            }
+            #indrub {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -3150px 0;
+            }
+            #indgri { 
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -3300px 0;
+            }
+            #indlar {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -3450px 0;
+            }
+            #indann {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -3600px 0;
+            }
+            #indyul {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -3750px 0;
+            }
+            #indsab {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -3900px 0;
+            }
+            #indkat {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -4050px 0;
+            }
+            #indosp{
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -4200px 0;
+            }
+            #indoyu {
+                width: 150px;
+                height: 350px;
+                background: url('img/indexsprite150.png') -4350px 0;
+            }
+
+    footer {
+        font-size: 2em;
+        padding: 2rem 0;
+
+    }
+
+ } /* end media 1100min */
