@@ -12,8 +12,28 @@ a {
     color: hotpink;
     text-decoration: none;
 }
+
 a:hover {
     color: #000;
+}
+
+/*======================================= */
+
+nav .grid-container {
+    margin-top: -1em;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding-bottom: 1rem;
+
+}
+
+nav .grid-item {
+    font-size: 2em;
+}
+nav .grid-item:last-child {
+    padding-bottom: 1rem;
+    
 }
 
 /*======================================= */
@@ -27,163 +47,163 @@ img.chara {
     height: 150px;
 }
 
-#inddan {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 0;
-}
-#indart {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -150px;
-}
-#indkla {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -300px;
-}
-#indagl {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -450px;
-}
-#indblo {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -600px;
-}
-#indbig {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -750px;
-}
+    #inddan {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 0;
+    }
+    #indart {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -150px;
+    }
+    #indkla {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -300px;
+    }
+    #indagl {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -450px;
+    }
+    #indblo {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -600px;
+    }
+    #indbig {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -750px;
+    }
 
-/* ============================== */
+    /* ============================== */
 
-#indeva {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -900px;
-}
-#indand {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -1050px;
-}
-#indpyt {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -1200px;
-}
-#indmar {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -1350px;
-}
-#indgeo {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 1500px;
-}
-#indvik {  
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -1650px;
-}
-#indmrk {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -1800px;
-}
-#indyvl {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -1950px;
-}
-#indkap {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -2100px;
-}
-#indgra {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -2250px;
-}
-#indkha {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -2400px;
-}
-#indnot {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -2550px;
-}
-#indmsk {  
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -2700px;
-}
-#indspk {  
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -2850px;
-}
-#indtay {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -3000px;
-}
-#indrub {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -3150px;
-}
-#indgri { 
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -3300px;
-}
-#indlar {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -3450px;
-}
-#indann {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -3600px;
-}
-#indyul {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -3750px;
-}
-#indsab {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -3900px;
-}
-#indkat {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -4050px;
-}
-#indosp{
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -4200px;
-}
-#indoyu {
-    width: 300px;
-    height: 150px;
-    background: url('img/indexsprite300.png') 0 -4350px;
-}
-footer {
-    font-size: 2em;
-    padding: 20px 0;
-}
+    #indeva {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -900px;
+    }
+    #indand {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -1050px;
+    }
+    #indpyt {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -1200px;
+    }
+    #indmar {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -1350px;
+    }
+    #indgeo {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 1500px;
+    }
+    #indvik {  
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -1650px;
+    }
+    #indmrk {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -1800px;
+    }
+    #indyvl {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -1950px;
+    }
+    #indkap {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -2100px;
+    }
+    #indgra {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -2250px;
+    }
+    #indkha {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -2400px;
+    }
+    #indnot {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -2550px;
+    }
+    #indmsk {  
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -2700px;
+    }
+    #indspk {  
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -2850px;
+    }
+    #indtay {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -3000px;
+    }
+    #indrub {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -3150px;
+    }
+    #indgri { 
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -3300px;
+    }
+    #indlar {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -3450px;
+    }
+    #indann {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -3600px;
+    }
+    #indyul {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -3750px;
+    }
+    #indsab {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -3900px;
+    }
+    #indkat {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -4050px;
+    }
+    #indosp{
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -4200px;
+    }
+    #indoyu {
+        width: 300px;
+        height: 150px;
+        background: url('img/indexsprite300.png') 0 -4350px;
+    }
+    footer {
+        font-size: 2em;
+        padding: 20px 0;
+    }
 
  
 
@@ -193,7 +213,26 @@ footer {
 
 @media (min-width: 700px) {
 
-        
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+    nav .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    nav .grid-item {
+        margin-top: -1em;
+        padding: 1rem 2em;
+    }
+
+    a:hover {
+        color: #000;
+    }
+
 } /* end media 700min */
 
 /* ---------------------------------------------------------------*/
@@ -203,17 +242,45 @@ footer {
     h1 {
         font-size: 4em;
     }
-
+    nav .grid-container {
+        margin-top: 3em;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+    nav {
+        background: #000;
+        border: 5px solid #000;
+        border-radius: 70px;
+        margin: -1em 10em 3em 10em;
+    }
+    nav a:hover {
+        color: #fff;
+    }
     .grid-container {
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
         justify-content: center;
+        
     }
 
     img.chara {
         width: 150px;
         height: 350px;
     }
+
+    footer {
+        font-size: 2em;
+        padding: 2rem 0;
+
+    }
+
+
+/* ---------------------------------------------------------------*/
+/* ---------------------------------------------------------------*/
+/* ---------------------------------------------------------------*/
+    
+
            #inddan {
                 width: 150px;
                 height: 350px;
@@ -368,11 +435,5 @@ footer {
                 height: 350px;
                 background: url('img/indexsprite150.png') -4350px 0;
             }
-
-    footer {
-        font-size: 2em;
-        padding: 2rem 0;
-
-    }
 
  } /* end media 1100min */

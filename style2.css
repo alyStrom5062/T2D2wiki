@@ -1,21 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
 
 body {
-    color: #000;
-    text-align: center;
     font-family: 'Domine', serif;
+    text-align: center;
+    background-color: #000;
 }
 h1 {
     font-size: 4em;
 }
 a {
-    color: hotpink;
     text-decoration: none;
 }
-a:hover {
+a:hover{
     color: #000;
 }
 
+div {
+    margin: 4em;
+    padding: 2em 2em 5em 2em;
+    border: 6px solid;
+    border-radius: 40px;
+    background-color: #fff;
+
+}
 
 /*======================================= */
 
@@ -38,6 +45,7 @@ td {
 }
 
 footer {
+    color: #fff;
     font-size: 2em;
     margin: 1.2em 0;
 }
